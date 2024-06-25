@@ -1,0 +1,123 @@
+@media screen and (max-width: 930px) {
+    .header_top_block h1 {
+        width: 250px;
+    }
+
+    .question {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .header_top_block {
+        flex-direction: column;
+    }
+
+    .header_top_block img {
+        width: 98px;
+        height: 97px;
+    }
+
+    .header_top_block h1 {
+        font-size: 18px;
+    }
+
+    .question .card {
+        width: 70%;
+    }
+
+    .question .text {
+        font-size: 16px;
+    }
+
+    .about_app .app {
+        font-size: 24px;
+    }
+
+    .about_app {
+        margin-top: 30px;
+    }
+
+    .about_app img {
+        width: 330px;
+        height: 196px;
+    }
+
+    .about_app .video_logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cards {
+        width: 300px;
+    }
+
+    .project {
+        font-size: 24px;
+        margin: 20px auto;
+    }
+
+    .project_text p {
+        width: 85%;
+        font-size: 15px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .download {
+        font-size: 24px;
+    }
+
+    .logos {
+        margin: 30px auto;
+    }
+
+    .logos img {
+        width: 130px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .project_text2 {
+        font-size: 15px;
+    }
+
+    .some {
+        font-size: 24px;
+    }
+
+    .end {
+        flex-direction: column;
+    }
+
+    .social_medias {
+        margin-bottom: -20px;
+    }
+
+    .social_medias a img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .block_finish {
+        width: 100%;
+        height: 32px;
+    }
+
+    .end h3 {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .end p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+
+}
